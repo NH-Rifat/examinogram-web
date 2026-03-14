@@ -15,7 +15,7 @@ export function FinalCTA() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!email.includes("@") || !email.includes(".")) {
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       setError("Please enter a valid email address.");
       return;
     }
