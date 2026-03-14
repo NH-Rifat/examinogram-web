@@ -1,0 +1,13 @@
+export { navbarData } from "./navbar.data";
+export { heroData } from "./hero.data";
+export { socialProofData } from "./social-proof.data";
+export { mentorFeaturesData } from "./mentor-features.data";
+export { learnerFeaturesData } from "./learner-features.data";
+export { howItWorksData } from "./how-it-works.data";
+export { questionBankData } from "./question-bank.data";
+export { libraryData } from "./library.data";
+export { pricingData } from "./pricing.data";
+export { testimonialsData } from "./testimonials.data";
+export { faqData } from "./faq.data";
+export { finalCtaData } from "./final-cta.data";
+export { footerData } from "./footer.data";
